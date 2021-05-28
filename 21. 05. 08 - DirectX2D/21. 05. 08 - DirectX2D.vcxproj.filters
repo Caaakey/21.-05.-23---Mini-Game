@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="System">
+      <UniqueIdentifier>{3bc06fc2-2739-4eb1-926e-f56459f96ad0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Renderer">
+      <UniqueIdentifier>{36d26990-52d9-4f0a-bacb-4c05dbbc58b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainEntry">
+      <UniqueIdentifier>{eb3c2008-e46c-4dcc-944f-273d75c7403f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers">
+      <UniqueIdentifier>{5142f147-351e-401c-bcfb-45fb6f5c695c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers\Input">
+      <UniqueIdentifier>{7cfb1ce1-c77d-470a-a91c-b240830631b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers\Timer">
+      <UniqueIdentifier>{34963f68-7433-45e1-bc93-ff3536c778db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility">
+      <UniqueIdentifier>{603e4136-c11d-441e-b9b1-6ef209098c19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers\Texture">
+      <UniqueIdentifier>{70ed2234-fbfc-42e8-b960-bd11490420fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers\CameraManager">
+      <UniqueIdentifier>{f95d7d38-8f45-4783-a303-f140fe43a98c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainEntry\BaseScene">
+      <UniqueIdentifier>{a4fb6715-2add-426b-a4af-ba9cf8b25361}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainEntry\Player">
+      <UniqueIdentifier>{1131ac46-f86c-4ce3-a40d-bf4c3802f70d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Scenes">
+      <UniqueIdentifier>{85716b48-9b7e-4b55-bf4d-a93a73d9f5ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainEntry\Modules">
+      <UniqueIdentifier>{e8308c96-0453-4792-b477-6286448ee981}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainEntry\Block">
+      <UniqueIdentifier>{28a9d7b6-df8c-443b-b006-5a5de9770468}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers\Bullet">
+      <UniqueIdentifier>{4b884788-b578-48f7-b769-05f7c0dc6876}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainEntry\Monster">
+      <UniqueIdentifier>{bdc50847-2f8b-47cd-bf19-c8ca23cb4509}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainEntry\Monster\Base">
+      <UniqueIdentifier>{981bf67b-3329-4c31-9e4f-5732f61bc3f2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="winMain.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Application.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicRenderer.cpp">
+      <Filter>System\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="MainEntryClass.cpp">
+      <Filter>MainEntry</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>Managers\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="TimerManager.cpp">
+      <Filter>Managers\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseTexture.cpp">
+      <Filter>Managers\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureManager.cpp">
+      <Filter>Managers\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraManager.cpp">
+      <Filter>Managers\CameraManager</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseScene.cpp">
+      <Filter>MainEntry\BaseScene</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionUtility.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>MainEntry\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>MainEntry\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>MainEntry\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="Block.cpp">
+      <Filter>MainEntry\Block</Filter>
+    </ClCompile>
+    <ClCompile Include="BlockManager.cpp">
+      <Filter>MainEntry\Block</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>Managers\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletManager.cpp">
+      <Filter>Managers\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Slime.cpp">
+      <Filter>MainEntry\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="BasePawn.cpp">
+      <Filter>MainEntry\Monster\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterManager.cpp">
+      <Filter>MainEntry\Monster</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Application.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicRenderer.h">
+      <Filter>System\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MainEntryClass.h">
+      <Filter>MainEntry</Filter>
+    </ClInclude>
+    <ClInclude Include="IScene.h">
+      <Filter>_Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>Managers\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseSingleton.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="TimerManager.h">
+      <Filter>Managers\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="StringUtility.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="FileUtility.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseTexture.h">
+      <Filter>Managers\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManager.h">
+      <Filter>Managers\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraManager.h">
+      <Filter>Managers\CameraManager</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionUtility.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseScene.h">
+      <Filter>MainEntry\BaseScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>MainEntry\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>MainEntry\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>MainEntry\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="Block.h">
+      <Filter>MainEntry\Block</Filter>
+    </ClInclude>
+    <ClInclude Include="BlockManager.h">
+      <Filter>MainEntry\Block</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Managers\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletManager.h">
+      <Filter>Managers\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Slime.h">
+      <Filter>MainEntry\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="BasePawn.h">
+      <Filter>MainEntry\Monster\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterManager.h">
+      <Filter>MainEntry\Monster</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
